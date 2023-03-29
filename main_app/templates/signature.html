@@ -1,0 +1,26 @@
+ <section class="dishes" id="dishes">
+      <div class="container text-center">
+        <header class="mb-5">
+          <h2 class="handwriting-text">Signature Dishes</h2>
+          <h5 class="text-uppercase text-gray-500"> Fresh and healthy food available</h5>
+        </header>
+        <!-- Set up your HTML-->
+        <div class="swiper dishes-slider">
+          <div class="swiper-wrapper">
+              {%  for dish in signature_dishes %}
+                          <div class="swiper-slide h-auto mb-5 text-center">
+                      <div class="position-relative d-inline-block px-lg-5">
+                          <img class="d-block mx-auto" src="{{ dish.photo.url }}" alt="{{ dish.title }}" height="142">
+                        <div class="position-absolute top-0 end-0 px-5">
+                          <div class="icon icon-sm bg-primary shadow-sm border border-primary mx-lg-5"><span class="text-white">${{ dish.price }}</span></div>
+                        </div>
+                      </div>
+                      <h4 class="h5 text-uppercase">{{ dish.title }}</h4>
+                      <p class="text-muted text-sm">{{ dish.desc }}</p>
+                    </div>
+              {% endfor %}
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>

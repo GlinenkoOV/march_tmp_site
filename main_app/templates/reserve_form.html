@@ -1,0 +1,63 @@
+<!-- Booking Section-->
+    <section class="bg-light" id="booking">
+      <div class="container">
+        <header class="text-center mb-5">
+          <h2 class="handwriting-text">Order your table</h2>
+          <h5 class="text-uppercase text-gray-500 fw-normal">Enjoy your meal at our restaurant</h5>
+        </header>
+        <div class="row">
+          <div class="col-lg-10 mx-auto position-relative"><img class="position-absolute top-100 start-100 translate-middle d-none d-lg-block" src="img/vegetables.png" alt="..." width="300">
+            <div class="bg-white z-index-20 position-relative">
+              <div class="row">
+                <div class="col-lg-10 mx-auto">
+                  <div class="card border-0 py-5">
+                    <div class="ribbon">
+                      <div class="icon icon-sm border-0 bg-primary rounded-0 text-white"><i class="fas fa-star text-white"></i></div>
+                    </div>
+                    <div class="card-body pt-5">
+                      <header class="mb-5 text-center">
+                        <h3 class="handwriting-text">Make a reservation</h3>
+                        <h5 class="text-uppercase text-gray-500 fw-normal">Book your table now</h5>
+                      </header>
+                      <form method="post">
+                          {% csrf_token %}
+                        <div class="row gy-3">
+                          <div class="col-lg-6">
+                            <label class="form-label" for="resName"> Name</label>
+                             {{ form_reserve.name }}
+                          </div>
+                          <div class="col-lg-6">
+                            <label class="form-label" for="resEmail"> Email</label>
+                             {{ form_reserve.email }}
+                          </div>
+                          <div class="col-lg-6">
+                            <label class="form-label" for="resNumber"> Number</label>
+                             {{ form_reserve.phone }}
+                          </div>
+                          <div class="col-lg-6">
+                            <label class="form-label" for="resPeople"> People</label>
+                             {{ form_reserve.guests }}
+                          </div>
+                          <div class="col-lg-12">
+                            <label class="form-label" for="resDate"> Date & Time</label>
+                            {{ form_reserve.visit_datetime }}
+                          </div>
+                          <div class="col-lg-12">
+                            <label class="form-label" for="request"> Special request</label>
+                             {{ form_reserve.message }}
+                          </div>
+                          <div class="col-lg-12 text-center">
+                            <button class="btn btn-primary" type="submit">Book now</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Booking Section-->
+    </section>

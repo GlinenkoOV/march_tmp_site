@@ -1,0 +1,1934 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-02-28T16:10:35.650Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "DishCategory object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-02-28T16:12:15.590Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "DishCategory object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-02-28T16:12:31.739Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "DishCategory object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-03-02T18:15:44.432Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Страва 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-03-02T18:17:42.650Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Страва 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Price\", \"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-03-02T18:18:33.623Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Страва2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-03-02T18:19:03.804Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Страва 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-03-02T19:19:46.187Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Страва 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-03-02T19:19:58.045Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Страва2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-03-02T19:20:06.152Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Страва 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-03-02T19:57:28.191Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Страва 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-03-02T20:19:04.613Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Страва 1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-03-02T20:19:08.857Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Страва2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-03-02T20:19:13.302Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Страва 3",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-03-02T21:05:15.488Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Страва 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-03-02T21:06:09.162Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Страва 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-03-02T21:06:39.472Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Страва 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-03-04T10:05:18.148Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Страва 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-03-04T11:13:03.052Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Страва 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Position\", \"Category\", \"Is special\", \"Price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-03-04T11:15:05.614Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Страва 6",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-03-04T11:16:34.909Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Страва 7",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2023-03-05T17:22:09.767Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Страва 7",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2023-03-05T17:22:15.789Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Страва 6",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2023-03-05T17:22:22.023Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Страва 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2023-03-05T17:23:25.510Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Страва 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2023-03-05T17:23:44.917Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Страва 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2023-03-05T20:12:59.462Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Страва 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is special\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2023-03-05T20:13:08.041Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Страва 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is special\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2023-03-05T20:13:30.605Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Страва 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is special\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2023-03-05T20:14:04.853Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Страва 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is special\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2023-03-06T13:11:23.211Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Страва 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is signature\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2023-03-06T13:13:19.180Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Страва 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is signature\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2023-03-07T14:41:13.066Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Страва 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2023-03-07T14:42:45.281Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Страва 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2023-03-07T14:43:04.763Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Страва 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2023-03-07T15:00:54.235Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Страва 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2023-03-07T15:00:59.159Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Страва 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is signature\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2023-03-07T15:05:49.108Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Страва 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2023-03-07T15:06:03.461Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Страва 1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2023-03-07T15:15:31.914Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Страва 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2023-03-07T15:15:54.109Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Страва 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2023-03-08T12:59:14.246Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Our unique story\tITALIANO is a legendary Italian restaurant, founded in 2003, with an interesting long history, high-class service, exquisite Italian cuisine with Mediterranean motifs, dishes from the",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2023-03-08T13:09:14.170Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Our unique story\tITALIANO is a legendary Italian restaurant, founded in 2003, with an interesting long history, high-class service, exquisite Italian cuisine with Mediterranean motifs, dishes from the",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About restaurant\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2023-03-08T15:52:23.236Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Our unique story\tITALIANO is a legendary Italian restaurant, founded in 2003, with an interesting long history, high-class service, exquisite Italian cuisine with Mediterranean motifs, dishes from the",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Desc history\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2023-03-08T15:53:22.791Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Our unique story\tITALIANO is a legendary Italian restaurant, founded in 2003, with an interesting long history, high-class service, exquisite Italian cuisine with Mediterranean motifs, dishes from the",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Desc history\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2023-03-08T17:07:57.617Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "CLEAN ENVIRONMENT",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2023-03-08T17:09:25.591Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "LOVELY & EXPERT CHEFS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2023-03-08T17:10:33.270Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "FRESH AND TASTY FOOD",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2023-03-10T11:39:38.984Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "media/bg.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2023-03-10T11:39:55.852Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "media/bg02.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2023-03-10T11:40:05.048Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "media/bg03.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2023-03-10T12:52:17.842Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Фото2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2023-03-10T12:52:30.563Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Фото2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2023-03-10T12:52:47.666Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Фото1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2023-03-10T12:53:22.184Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Фото1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2023-03-10T12:54:09.192Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "Фото4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2023-03-10T12:54:34.343Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Фото1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2023-03-10T12:54:52.613Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Фото2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2023-03-10T12:55:09.821Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Фото3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2023-03-10T12:56:11.004Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "Фото5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2023-03-10T12:57:09.427Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "Фото6",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2023-03-10T12:57:33.265Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "Фото7",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2023-03-10T12:57:57.459Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "Фото8",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2023-03-14T12:58:29.659Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Страва 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is recommended\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2023-03-20T08:29:23.541Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Oksana\t380931663697\tadmin@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2023-03-20T19:09:01.014Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "9",
+        "object_repr": "Oksana\t380931663697\tadmin@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Guests\", \"Is processed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2023-03-20T19:09:08.456Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Oksana\t380931663697\tadmin@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Guests\", \"Is processed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2023-03-20T19:12:50.777Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "manager",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2023-03-20T19:13:07.210Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "user1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add dish category",
+        "content_type": 7,
+        "codename": "add_dishcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change dish category",
+        "content_type": 7,
+        "codename": "change_dishcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete dish category",
+        "content_type": 7,
+        "codename": "delete_dishcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view dish category",
+        "content_type": 7,
+        "codename": "view_dishcategory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add dish",
+        "content_type": 8,
+        "codename": "add_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change dish",
+        "content_type": 8,
+        "codename": "change_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete dish",
+        "content_type": 8,
+        "codename": "delete_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view dish",
+        "content_type": 8,
+        "codename": "view_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add reservation",
+        "content_type": 9,
+        "codename": "add_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change reservation",
+        "content_type": 9,
+        "codename": "change_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete reservation",
+        "content_type": 9,
+        "codename": "delete_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view reservation",
+        "content_type": 9,
+        "codename": "view_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add about",
+        "content_type": 10,
+        "codename": "add_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change about",
+        "content_type": 10,
+        "codename": "change_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete about",
+        "content_type": 10,
+        "codename": "delete_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view about",
+        "content_type": 10,
+        "codename": "view_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add Service",
+        "content_type": 11,
+        "codename": "add_service"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change Service",
+        "content_type": 11,
+        "codename": "change_service"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete Service",
+        "content_type": 11,
+        "codename": "delete_service"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view Service",
+        "content_type": 11,
+        "codename": "view_service"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add gallery",
+        "content_type": 12,
+        "codename": "add_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change gallery",
+        "content_type": 12,
+        "codename": "change_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete gallery",
+        "content_type": 12,
+        "codename": "delete_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view gallery",
+        "content_type": 12,
+        "codename": "view_gallery"
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+        "name": "manager",
+        "permissions": [
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            5,
+            6,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            37,
+            38,
+            39,
+            40,
+            29,
+            30,
+            31,
+            32,
+            25,
+            26,
+            27,
+            28,
+            45,
+            46,
+            47,
+            48,
+            33,
+            34,
+            35,
+            36,
+            41,
+            42,
+            43,
+            44,
+            21,
+            22,
+            23,
+            24
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$cWMt9HZOaPvIjg3067Mmef$ebC4I+XRUkNdhSdD2KsPaaRGp+2PK9VVNwM83z2cIss=",
+        "last_login": "2023-03-20T19:11:55.566Z",
+        "is_superuser": true,
+        "username": "Oksana",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-02-28T16:01:47.528Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$XDKTblXYETEJjHFoHwHlnK$EkXdYxV8Wi7xMy+dKNmhAZZ9rbrszHquddMNBs0GaRs=",
+        "last_login": "2023-03-20T19:23:22.581Z",
+        "is_superuser": false,
+        "username": "user1",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-03-20T14:13:38Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$I18HbUYw3siGDbUjU7u0zQ$EYoRS0F5xCdwPIeRKWL0Lylyovsau1wPjlWIc2/Hzjc=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user2",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-03-20T19:14:57.127Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "main_app",
+        "model": "dishcategory"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "main_app",
+        "model": "dish"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "main_app",
+        "model": "reservation"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "main_app",
+        "model": "about"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "main_app",
+        "model": "service"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "main_app",
+        "model": "gallery"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "39c0xtdyk85m8zq27q3xoq9ugh2h6l2x",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGllex19Kes5g7dprHECJFCcV4u4QKQW0b2beSyTc1pa2zksaizgLEKffjTA_eNpBueN0m2Wep3UZSe6KPGiX17nw83K4fwcNe_vWjrSlyG5gFUzFWrKy4DG76IPX5CCQzmCNR0AEBbpGJlDGFTvwoKJ4fwDeNjdh:1pXnMm:zViMQqltVhHNrLkZqG2zynXZr5Mss16gz20aCr9oUM4",
+        "expire_date": "2023-03-16T18:09:20.784Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3xdwsh5y4p2u5ihts0y29l6uukqbb4h6",
+    "fields": {
+        "session_data": ".eJxVjDkOwjAURO_iGlle5ZiSnjNYf7FxADlSnFQRdyeRUkA5897MJhKsS01rz3MaWVyFEZffDoFeuR2An9Aek6SpLfOI8lDkSbu8T5zft9P9O6jQ675W0TprmTwWct6YgqGoUCgon2NUqlhwzJGKRrB70sTGWD0MCF47DuLzBeXXN_A:1peL6I:gZmmxKrwAm0ayJfYFuoerXLQVehnr5_ykEgQ9cKSVjg",
+        "expire_date": "2023-04-03T19:23:22.593Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7afpx40wusxypugpom33uzuhegv9xyoc",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGllex19Kes5g7dprHECJFCcV4u4QKQW0b2beSyTc1pa2zksaizgLEKffjTA_eNpBueN0m2Wep3UZSe6KPGiX17nw83K4fwcNe_vWjrSlyG5gFUzFWrKy4DG76IPX5CCQzmCNR0AEBbpGJlDGFTvwoKJ4fwDeNjdh:1pYOjQ:DOsQry_uX57mKq1VTGB3Xk5Fz2nahdx5IK8v1mbeB7c",
+        "expire_date": "2023-03-18T10:03:12.613Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vfpas1jsnwrl6zwsvz9rzwfkb95vi9z3",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGllex19Kes5g7dprHECJFCcV4u4QKQW0b2beSyTc1pa2zksaizgLEKffjTA_eNpBueN0m2Wep3UZSe6KPGiX17nw83K4fwcNe_vWjrSlyG5gFUzFWrKy4DG76IPX5CCQzmCNR0AEBbpGJlDGFTvwoKJ4fwDeNjdh:1pX2Um:8S7_abF5dnlr8Rj58UbSjzg8BoPpVoOP-JhIr4FpHYw",
+        "expire_date": "2023-03-14T16:06:28.494Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vl6j0879dcy1dwqhoko9iro0ohaxo26n",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGllex19Kes5g7dprHECJFCcV4u4QKQW0b2beSyTc1pa2zksaizgLEKffjTA_eNpBueN0m2Wep3UZSe6KPGiX17nw83K4fwcNe_vWjrSlyG5gFUzFWrKy4DG76IPX5CCQzmCNR0AEBbpGJlDGFTvwoKJ4fwDeNjdh:1pYs2X:9FbgFteRt3mjedGKjohMCC4A__g2-ihVZTqQDQw-9YU",
+        "expire_date": "2023-03-19T17:20:53.084Z"
+    }
+},
+{
+    "model": "main_app.dishcategory",
+    "pk": 1,
+    "fields": {
+        "title": "Сніданки",
+        "position": 1,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_app.dishcategory",
+    "pk": 2,
+    "fields": {
+        "title": "Перші страви",
+        "position": 2,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_app.dishcategory",
+    "pk": 3,
+    "fields": {
+        "title": "Основні страви",
+        "position": 3,
+        "is_visible": true
+    }
+},
+{
+    "model": "main_app.dish",
+    "pk": 4,
+    "fields": {
+        "title": "Страва 1",
+        "position": 1,
+        "is_visible": true,
+        "category": 1,
+        "is_special": true,
+        "is_signature": false,
+        "desc": "",
+        "price": "100.00",
+        "discount": 0,
+        "ingredients": "Pepper / Chicken / Honey",
+        "photo": "dishes/event-bg.jpg",
+        "is_recommended": false
+    }
+},
+{
+    "model": "main_app.dish",
+    "pk": 5,
+    "fields": {
+        "title": "Страва 2",
+        "position": 1,
+        "is_visible": true,
+        "category": 2,
+        "is_special": true,
+        "is_signature": true,
+        "desc": "",
+        "price": "200.00",
+        "discount": 0,
+        "ingredients": "Pepper / Chicken / Honey",
+        "photo": "dishes/vegetables_8SPOpJq.png",
+        "is_recommended": true
+    }
+},
+{
+    "model": "main_app.dish",
+    "pk": 6,
+    "fields": {
+        "title": "Страва 3",
+        "position": 1,
+        "is_visible": true,
+        "category": 3,
+        "is_special": true,
+        "is_signature": true,
+        "desc": "",
+        "price": "300.00",
+        "discount": 0,
+        "ingredients": "Pepper / Chicken / Honey",
+        "photo": "dishes/dish-a.png",
+        "is_recommended": false
+    }
+},
+{
+    "model": "main_app.dish",
+    "pk": 7,
+    "fields": {
+        "title": "Страва 4",
+        "position": 1,
+        "is_visible": true,
+        "category": 3,
+        "is_special": false,
+        "is_signature": true,
+        "desc": "",
+        "price": "400.00",
+        "discount": 0,
+        "ingredients": "Papper/Chicken/Honey",
+        "photo": "dishes/dish-b.png",
+        "is_recommended": false
+    }
+},
+{
+    "model": "main_app.reservation",
+    "pk": 1,
+    "fields": {
+        "name": "Oksana",
+        "email": "admin@gmail.com",
+        "phone": "380931663697",
+        "visit_datetime": "2023-03-29",
+        "date_request": "2023-03-20T08:14:19.313Z",
+        "date_response": "2023-03-20T08:14:19.314Z",
+        "guests": "2",
+        "message": "ergglrelhmglrem",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_app.reservation",
+    "pk": 2,
+    "fields": {
+        "name": "Oksana",
+        "email": "admin@gmail.com",
+        "phone": "380931663697",
+        "visit_datetime": "2023-03-29",
+        "date_request": "2023-03-20T08:22:30.875Z",
+        "date_response": "2023-03-20T08:29:23.535Z",
+        "guests": "2",
+        "message": "ergglrelhmglrem123456",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_app.reservation",
+    "pk": 3,
+    "fields": {
+        "name": "Oksana",
+        "email": "admin@gmail.com",
+        "phone": "380931663697",
+        "visit_datetime": "2023-04-01",
+        "date_request": "2023-03-20T09:03:30.329Z",
+        "date_response": "2023-03-20T09:03:30.329Z",
+        "guests": "3",
+        "message": "TEST3",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_app.reservation",
+    "pk": 4,
+    "fields": {
+        "name": "Oksana",
+        "email": "admin@gmail.com",
+        "phone": "380931663697",
+        "visit_datetime": "2023-04-07",
+        "date_request": "2023-03-20T09:12:55.241Z",
+        "date_response": "2023-03-20T09:12:55.241Z",
+        "guests": "4",
+        "message": "TEST4",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_app.reservation",
+    "pk": 5,
+    "fields": {
+        "name": "Oksana",
+        "email": "admin@gmail.com",
+        "phone": "380931663697",
+        "visit_datetime": "2023-03-23",
+        "date_request": "2023-03-20T09:15:59.024Z",
+        "date_response": "2023-03-20T09:15:59.024Z",
+        "guests": "5",
+        "message": "TEST5",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_app.reservation",
+    "pk": 6,
+    "fields": {
+        "name": "Oksana",
+        "email": "admin@gmail.com",
+        "phone": "380931663697",
+        "visit_datetime": "2023-03-18",
+        "date_request": "2023-03-20T09:20:01.424Z",
+        "date_response": "2023-03-20T09:20:01.424Z",
+        "guests": "6",
+        "message": "TEST6",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_app.reservation",
+    "pk": 7,
+    "fields": {
+        "name": "Oksana",
+        "email": "admin@gmail.com",
+        "phone": "380931663697",
+        "visit_datetime": "2023-03-19",
+        "date_request": "2023-03-20T09:22:07.771Z",
+        "date_response": "2023-03-20T09:22:07.771Z",
+        "guests": "7",
+        "message": "TEST7",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_app.reservation",
+    "pk": 8,
+    "fields": {
+        "name": "Oksana",
+        "email": "admin@gmail.com",
+        "phone": "380931663697",
+        "visit_datetime": "2023-03-12",
+        "date_request": "2023-03-20T09:44:50.170Z",
+        "date_response": "2023-03-20T19:09:08.453Z",
+        "guests": "8",
+        "message": "TEST8",
+        "is_processed": false
+    }
+},
+{
+    "model": "main_app.reservation",
+    "pk": 9,
+    "fields": {
+        "name": "Oksana",
+        "email": "admin@gmail.com",
+        "phone": "380931663697",
+        "visit_datetime": "2023-03-20",
+        "date_request": "2023-03-20T09:57:44.190Z",
+        "date_response": "2023-03-20T19:09:01.010Z",
+        "guests": "9",
+        "message": "TEST9",
+        "is_processed": false
+    }
+},
+{
+    "model": "main_app.reservation",
+    "pk": 10,
+    "fields": {
+        "name": "Oksana",
+        "email": "admin@gmail.com",
+        "phone": "380931663697",
+        "visit_datetime": "2023-03-24",
+        "date_request": "2023-03-20T10:06:40.826Z",
+        "date_response": "2023-03-20T10:06:40.826Z",
+        "guests": "10",
+        "message": "10",
+        "is_processed": true
+    }
+},
+{
+    "model": "main_app.about",
+    "pk": 1,
+    "fields": {
+        "heading": "Our unique story",
+        "desc_history": "ITALIANO is a legendary Italian restaurant, founded in 2003, with an interesting long history, high-class service, exquisite Italian cuisine with Mediterranean motifs, dishes from the freshest seafood and the best meat in the world."
+    }
+},
+{
+    "model": "main_app.service",
+    "pk": 1,
+    "fields": {
+        "title": "CLEAN ENVIRONMENT",
+        "position": 1,
+        "desc": "Cleanliness is an essential part of customer service.  Making sure each guest has a clean eating area is almost as important as bringing out the right food. It shows that you care and want your customers to have a good time while they are dining. A clean establishment is also important in making a good first impression on guests and helps to boost customer loyalty",
+        "is_visible": true,
+        "icon": "H"
+    }
+},
+{
+    "model": "main_app.service",
+    "pk": 2,
+    "fields": {
+        "title": "LOVELY & EXPERT CHEFS",
+        "position": 2,
+        "desc": "Chefs are now the protagonists of the wider culinary scene, and are considered among the most fundamental figures of any restaurant. The chef is responsible for the dishes that leave the kitchen, whether they really satisfy the customers, their flavor, quality, presentation, as well as getting them on the table in time.",
+        "is_visible": true,
+        "icon": "H"
+    }
+},
+{
+    "model": "main_app.service",
+    "pk": 3,
+    "fields": {
+        "title": "FRESH AND TASTY FOOD",
+        "position": 3,
+        "desc": "No diner wants to be worried that the servers and cooks handling their food are covered in germs.\r\n A regular and thorough cleaning of the kitchen and dining area reduces pathogens from spreading to consumers.",
+        "is_visible": true,
+        "icon": "H"
+    }
+},
+{
+    "model": "main_app.gallery",
+    "pk": 1,
+    "fields": {
+        "title": "Фото1",
+        "image": "media/bg01-small_jUG7v3G.jpg"
+    }
+},
+{
+    "model": "main_app.gallery",
+    "pk": 2,
+    "fields": {
+        "title": "Фото2",
+        "image": "media/bg02-small.jpg"
+    }
+},
+{
+    "model": "main_app.gallery",
+    "pk": 3,
+    "fields": {
+        "title": "Фото3",
+        "image": "media/bg06-small_bKqc3Cf.jpg"
+    }
+},
+{
+    "model": "main_app.gallery",
+    "pk": 4,
+    "fields": {
+        "title": "Фото4",
+        "image": "media/bg03-small.jpg"
+    }
+},
+{
+    "model": "main_app.gallery",
+    "pk": 5,
+    "fields": {
+        "title": "Фото5",
+        "image": "media/bg-small.jpg"
+    }
+},
+{
+    "model": "main_app.gallery",
+    "pk": 6,
+    "fields": {
+        "title": "Фото6",
+        "image": "media/bg05-small_xkdWudO.jpg"
+    }
+},
+{
+    "model": "main_app.gallery",
+    "pk": 7,
+    "fields": {
+        "title": "Фото7",
+        "image": "media/bg04-small_fz4mmHo.jpg"
+    }
+},
+{
+    "model": "main_app.gallery",
+    "pk": 8,
+    "fields": {
+        "title": "Фото8",
+        "image": "media/bg07-small.jpg"
+    }
+}
+]

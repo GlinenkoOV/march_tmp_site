@@ -1,0 +1,107 @@
+      <section id="menu">
+      <div class="container">
+        <header class="text-center mb-5">
+          <h2 class="handwriting-text">Our food menu</h2>
+          <h5 class="text-uppercase text-gray-500 fw-normal">Our most popular menu</h5>
+        </header>
+        <div class="bg-light p-1 mb-5">
+          <ul class="nav nav-pills justify-content-center border border-2 border-white p-3" id="foodMenu" role="tablist">
+            {% for category in categories %}
+                {% if forloop.first %}
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-uppercase active" id="cat{{ category.pk }}-tab" data-bs-toggle="tab"
+                                data-bs-target="#cat{{ category.pk }}" type="button" role="tab"
+                                aria-controls="cat{{ category.pk }}" aria-selected="false">
+                        {{ category.title }}
+                        </button>
+                    </li>
+                {% else %}
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-uppercase" id="cat{{ category.pk }}-tab" data-bs-toggle="tab"
+                                data-bs-target="#cat{{ category.pk }}" type="button" role="tab" aria-controls="cat{{ category.pk }}"
+                                aria-selected="false">
+                        {{ category.title }}
+                        </button>
+                    </li>
+                {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="tab-content" id="foodMenuContent">
+            {% for category in categories  %}
+                {% if forloop.first %}
+                    <div class="tab-pane fade show active" id="cat{{ category.pk }}" role="tabpanel" aria-labelledby="cat{{ category.pk }}-tab">
+                        <div class="row">
+                            {% for dish in category %}
+                                {% if dish.is_recommended %}
+                                    <div class="col-lg-6">
+                                        <div class="p-1 bg-primary text-white">
+                                          <div class="d-flex justify-content-between p-4 border border-white border-2">
+                                            <div class="me-3 true">
+                                              <h5 class="fw-light">{{ dish.title }}</h5>
+                                              <p class="small mb-0 true">{{ dish.ingredients }}</p>
+                                            </div>
+                                            <div class="text-end true"><strong class="price-formatted true">{{ dish.price }}</strong>
+                                              <p class="text-uppercase small mb-0">Recommended</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                {% else %}
+                                     <div class="col-lg-6">
+                                        <div class="py-4 border-bottom">
+                                          <div class="d-flex justify-content-between">
+                                            <div class="me-3 py-1">
+                                              <h5 class="fw-light">{{ dish.title }}</h5>
+                                              <p class="small mb-0 text-gray-600">{{ dish.ingredients }}</p>
+                                            </div>
+                                            <div class="text-end py-1"><strong class="price-formatted text-primary">{{ dish.price }}</strong>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="tab-pane fade show" id="cat{{ category.pk }}" role="tabpanel" aria-labelledby="cat{{ category.pk }}-tab">
+                        <div class="row">
+                            {% for dish in category %}
+                                {% if dish.is_recommended %}
+                                    <div class="col-lg-6">
+                                        <div class="p-1 bg-primary text-white">
+                                          <div class="d-flex justify-content-between p-4 border border-white border-2">
+                                            <div class="me-3 true">
+                                              <h5 class="fw-light">{{ dish.title }}</h5>
+                                              <p class="small mb-0 true">{{ dish.ingredients }}</p>
+                                            </div>
+                                            <div class="text-end true"><strong class="price-formatted true">{{ dish.price }}</strong>
+                                              <p class="text-uppercase small mb-0">Recommended</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                {% else %}
+                                     <div class="col-lg-6">
+                                        <div class="py-4 border-bottom">
+                                          <div class="d-flex justify-content-between">
+                                            <div class="me-3 py-1">
+                                              <h5 class="fw-light">{{ dish.title }}</h5>
+                                              <p class="small mb-0 text-gray-600">{{ dish.ingredients }}</p>
+                                            </div>
+                                            <div class="text-end py-1"><strong class="price-formatted text-primary">{{ dish.price }}</strong>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+
+        </div>
+      </div>
+</section>

@@ -1,0 +1,48 @@
+{% extends 'index.html' %}
+
+{% block main_content %}
+
+     <section class="bg-light" id="booking">
+      <div class="container">
+        <header class="text-center mb-5">
+          <h2 class="handwriting-text">Login form</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-10 mx-auto position-relative"><img class="position-absolute top-100 start-100 translate-middle d-none d-lg-block" src="img/vegetables.png" alt="..." width="300">
+            <div class="bg-white z-index-20 position-relative">
+              <div class="row">
+                <div class="col-lg-10 mx-auto">
+                  <div class="card border-0 py-5">
+                    <div class="ribbon">
+                      <div class="icon icon-sm border-0 bg-primary rounded-0 text-white"><i class="fas fa-star text-white"></i></div>
+                    </div>
+                    <div class="card-body pt-5">
+                      <header class="mb-5 text-center">
+                        <h3 class="handwriting-text">Enter Login</h3>
+                      </header>
+                      <form method="post">
+                          {% csrf_token %}
+                        <div class="row gy-3">
+                          <div class="col-lg-12">
+                            <label class="form-label"> Username</label>
+                             {{ form.username }}
+                          </div>
+                          <div class="col-lg-12">
+                            <label class="form-label"> Password</label>
+                             {{ form.password }}
+                          </div>
+                          <div class="col-lg-12 text-center">
+                            <button class="btn btn-primary" type="submit">OK</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{% endblock %}

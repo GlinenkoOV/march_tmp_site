@@ -1,0 +1,20 @@
+    <section id="gallery">
+      <div class="container text-center">
+        <header class="mb-5">
+          <h2 class="handwriting-text">Our Gallery</h2>
+          <h5 class="text-uppercase text-gray-500 fw-normal">Discover the photo gallery</h5>
+        </header>
+        <div class="row g-0">
+          <!-- Item-->
+            {% for item in galleries %}
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="overlay-hover-primary"><img class="img-fluid" src="{{item.image.url}}" alt="image">
+              <div class="overlay-content p-1"><a class="glightbox d-block border border-2 border-white w-100 h-100 d-flex align-items-center justify-content-center text-white text-decoration-none" href="img/bg01.jpg" data-gallery="gallery" data-glightbox="Image Caption">
+                  <div class="icon icon-md border border-white"><i class="fas fa-search fa-2x text-white"></i></div></a></div>
+            </div>
+          </div>
+            {% endfor %}
+
+        </div>
+      </div>
+    </section>

@@ -1,0 +1,230 @@
+{% extends 'index.html' %}
+
+{% block main_content %}
+    <!-- Reservation Modal-->
+    <div class="modal fade" id="reservationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content position-relative">
+          <div class="bg-primary position-absolute top-0 start-0 z-index-top">
+            <button class="btn-close btn-close-white p-3 opacity-10" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-5">
+            <header class="mb-5 text-center">
+              <h3 class="handwriting-text">Make a reservation</h3>
+              <h5 class="text-uppercase text-gray-500 fw-normal">Book your table now</h5>
+            </header>
+            <form class="p-lg-5">
+              <div class="row gy-3">
+                <div class="col-lg-6">
+                  <label class="form-label" for="modalResName"> Name</label>
+                  <input class="form-control shadow-0 px-0 border-0 border-bottom" id="modalResName" type="text" name="res_name" required="">
+                </div>
+                <div class="col-lg-6">
+                  <label class="form-label" for="modalResEmail"> Email</label>
+                  <input class="form-control shadow-0 px-0 border-0 border-bottom" id="modalResEmail" type="email" name="res_email" required="">
+                </div>
+                <div class="col-lg-6">
+                  <label class="form-label" for="modalResNumber"> Number</label>
+                  <input class="form-control shadow-0 px-0 border-0 border-bottom" id="modalResNumber" type="number" name="res_number" required="">
+                </div>
+                <div class="col-lg-6">
+                  <label class="form-label" for="modalResPeople"> People</label>
+                  <input class="form-control shadow-0 px-0 border-0 border-bottom" id="modalResPeople" type="number" name="res_people" required="">
+                </div>
+                <div class="col-lg-12">
+                  <label class="form-label" for="modalResDate"> Date & Time</label>
+                  <input class="form-control shadow-0 px-0 border-0 border-bottom" id="modalResDate" type="text" name="res_date" required="">
+                </div>
+                <div class="col-lg-12">
+                  <label class="form-label" for="modalRequest"> Special request</label>
+                  <textarea class="form-control shadow-0 px-0 border-0 border-bottom" id="modalRequest" rows="7" name="res_request" required=""></textarea>
+                </div>
+                <div class="col-lg-12 text-center">
+                  <button class="btn btn-primary" type="submit">Book now</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero Section-->
+    <section class="text-white p-0" id="hero">
+      <div class="swiper hero-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide h-auto">
+            <div class="hero-slide bg-center bg-cover" style="background-image: url(img/hero-bg.jpg);">
+              <div class="container pe-5">
+                <h2 class="handwriting-text" data-swiper-parallax="-200">This is <span class="text-primary">Italiano restaurant</span></h2>
+                <h1 class="handwriting-text" data-swiper-parallax="-300">Bootstrap Template</h1>
+                <p class="hero-text lh-3" data-swiper-parallax="-400">An elegant Bootstrap template brought to you by <a href="https://bootstraptemple.com/" target="_blank">Bootstrap Temple</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide h-auto">
+            <div class="hero-slide bg-center bg-cover" style="background-image: url(img/hero-bg02.jpg);">
+              <div class="container pe-5">
+                <h1 class="handwriting-text" data-swiper-parallax="-200">lorem ipsum dolor sit amit</h1>
+                <p class="hero-text lh-3" data-swiper-parallax="-400"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide h-auto">
+            <div class="hero-slide bg-center bg-cover" style="background-image: url(img/hero-bg03.jpg);">
+              <div class="container pe-5">
+                <h2 class="handwriting-text" data-swiper-parallax="-200">Visit <span class="text-primary">italiano restaurant</span></h2>
+                <h1 class="handwriting-text" data-swiper-parallax="-300">lorem ipsum dolor sit amit</h1>
+                <p class="hero-text lh-3" data-swiper-parallax="-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- slider pagination-->
+        <div class="swiper-pagination p-3 text-end"></div>
+      </div><a class="scroll-down d-none d-sm-block" href="#about"></a>
+      <!-- social icons menu-->
+      <div class="hero-social d-none d-xl-flex">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item"><a class="text-reset" href="#!"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="list-inline-item"><a class="text-reset" href="#!"><i class="fab fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a class="text-reset" href="#!"><i class="fab fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a class="text-reset" href="#!"><i class="fab fa-pinterest"></i></a></li>
+        </ul><span class="line"></span><span class="text-uppercase">Follow us</span>
+      </div>
+    </section>
+    <section class="p-0" id="detail">
+      <div class="row">
+        <div class="col-lg-6 p-5 bg-black text-white">
+          <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+            <div class="text-center me-lg-2"><span>Call Us Now For</span>
+              <h5 class="text-primary text-uppercase mt-2">Home Delivery</h5>
+            </div>
+            <div class="ms-lg-3"><a class="text-reset h3" href="tel:9870988764">987 098 8764 </a></div>
+          </div>
+        </div>
+        <div class="col-lg-6 p-5 bg-primary">
+          <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+            <div class="text-center"><span class="text-black">Check Our Clients'</span>
+              <h5 class="text-white text-uppercase mt-2">Rating &amp; reviews</h5>
+            </div>
+            <div class="ms-3"><a class="link-rounded bg-white" href="#!"> <i class="fas fa-angle-right"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section-->
+    {% include 'about.html' %}
+    <!-- End About Section-->
+    <!-- Services Section-->
+    {% include 'services.html' %}
+    <!-- End Services Section-->
+    <!-- App Section-->
+    <section class="p-0" id="app">
+      <div class="container">
+        <div class="bg-primary text-white p-1">
+          <div class="p-5 text-center border border-2">
+            <h5 class="h4 mb-4 text-uppercase fw-light">Our app is available now, we made it easire, Download it now.</h5>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item"><a class="btn btn-light" href="https://bootstrapious.com/" title="Google Play">Google Play</a></li>
+              <li class="list-inline-item"><a class="btn btn-light" href="https://bootstrapious.com/" title="Appstore">App Store</a></li>
+              <li class="list-inline-item"><a class="btn btn-light" href="https://bootstrapious.com/" title="Bootstrap Temple">Download this template</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End App Section-->
+    <!-- Dishes Section-->
+
+    {% include 'signature.html' %}
+    <!-- End Dishes Section-->
+    <!-- Offers Section-->
+    {% include 'offers.html' %}
+
+
+
+    <!-- Menu Section-->
+    {% include 'menu.html' %}
+
+    <!-- Events Section-->
+    <section class="bg-light" id="events">
+      <div class="container">
+        <header class="text-center mb-5">
+          <h2 class="handwriting-text">Upcoming Events</h2>
+          <h5 class="text-uppercase text-gray-500 fw-normal">Don't miss our awesome events</h5>
+        </header>
+        <div class="row g-0 bg-white align-items-stretch">
+          <!-- Profile Side-->
+          <div class="col-lg-6">
+            <div class="dark-overlay p-1 bg-cover bg-center h-100" style="background-image: url(img/event-bg.jpg);">
+              <div class="overlay-content border border-2 border-white text-white p-5 h-100">
+                <div class="d-flex align-items-center">
+                  <div class="icon icon-md rounded-0 border-2 border-white me-3">
+                    <h4 class="mb-0">15</h4><sup>th</sup>
+                  </div>
+                  <div class="text-uppercase">
+                    <p class="h3 mb-0 mb-0 lh-1 fw-normal">December </p><span class="h4">2016</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Details Side-->
+          <div class="col-lg-6 bg-white p-5">
+            <div class="py-5">
+              <h3 class="h5 text-uppercase">Italian Master Class</h3>
+              <h4 class="h6 text-primary text-uppercase mb-3">15 December 2016 | 20:00</h4>
+              <p class="text-muted text-sm lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p><a class="btn btn-primary" href="#!">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Events Section-->
+    <!-- Gallery Section-->
+    {% include 'gallery.html' %}
+    <!-- End Gallery Section-->
+    {% include "reserve_form.html" %}
+    <!-- Booking Section-->
+
+
+    <!-- Contact Section-->
+    <section id="contact">
+      <div class="position-absolute top-0 start-0 end-0 bottom-0" id="map"></div>
+      <div class="container z-index-top">
+        <div class="card shadow border-0">
+          <div class="card-body p-lg-5">
+            <header class="text-center mb-5">
+              <h2 class="handwriting-text">Contact Us</h2>
+              <h5 class="text-uppercase text-gray-500 fw-normal">Feel free to contact us</h5>
+            </header>
+            <div class="row">
+              <div class="col-lg-7 mx-auto">
+                <form>
+                  <div class="row gy-4">
+                    <div class="col-lg-6">
+                      <label class="form-label" for="name"> Name</label>
+                      <input class="form-control shadow-0 px-0 border-0 border-bottom" id="name" type="text" name="name" required="">
+                    </div>
+                    <div class="col-lg-6">
+                      <label class="form-label" for="email"> Email</label>
+                      <input class="form-control shadow-0 px-0 border-0 border-bottom" id="email" type="email" name="email" required="">
+                    </div>
+                    <div class="col-lg-12">
+                      <label class="form-label" for="message"> Your message</label>
+                      <textarea class="form-control shadow-0 px-0 border-0 border-bottom" id="message" rows="7" name="message" required=""></textarea>
+                    </div>
+                    <div class="col-lg-12 text-center">
+                      <button class="btn btn-primary" type="submit">Send</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section-->
+    <button class="btn btn-primary" id="scrollTopBtn" type="button"><i class="fas fa-angle-up text-white"></i></button>
+{% endblock %}

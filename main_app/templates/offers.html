@@ -1,0 +1,31 @@
+
+<section class="bg-light" id="offers">
+      <div class="container text-center">
+        <header class="mb-5">
+          <h2 class="handwriting-text">Special Offers</h2>
+          <h5 class="text-uppercase text-gray-500 fw-normal">Don't miss our offers</h5>
+        </header>
+      <div class="row gy-4 mt-5">
+          {% for dish in special_dishes %}
+              <div class="col-md-4">
+            <div class="card border-0">
+              <div class="card-body p-lg-5 position-relative">
+                <div class="px-3 position-absolute top-0 end-0 translate-middle">
+                  <div class="icon icon-md bg-primary border border-primary">
+                    <h6 class="text-white mb-0 lh-1 text-uppercase">40% <br> off</h6>
+                  </div>
+                </div><img class="img-fluid d-block mx-auto mb-3 mt-4" src="{{ dish.photo.url }}" alt="Dish Name" width="200">
+                <h5 class="text-uppercase">Dish Name </h5>
+                <ul class="list-unstyled mb-0">
+                  <li class="text-primary lead price-formatted fw-bold text-sm">50000 </li>
+                  <li class="text-muted lead price-formatted fw-bold text-sm text-line-through">30000 </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {% endfor %}
+      </div>
+
+      </div>
+    </section>
